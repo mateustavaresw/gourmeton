@@ -1,0 +1,17 @@
+[
+  {
+    "nome": "Camila Souza",
+    "cidade": "São Paulo, SP",
+    "texto": "Peço toda semana pelo GourmetOn. O prato chega quentinho e sem taxa escondida nenhuma."
+  },
+  {
+    "nome": "Bruno Alves",
+    "cidade": "Campinas, SP",
+    "texto": "O cardápio é atualizado direto da API, então sempre acho algo novo pra pedir. Recomendo demais."
+  },
+  {
+    "nome": "Fernanda Lima",
+    "cidade": "Belo Horizonte, MG",
+    "texto": "Interface simples, entrega rápida e o suporte respondeu na hora quando precisei trocar o endereço."
+  }
+]

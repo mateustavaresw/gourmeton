@@ -71,9 +71,9 @@ export default function Funcionalidades() {
   }, [tipo])
 
   return (
-    <section id="funcionalidades" className="py-20 px-4">
-      <h2 className="text-3xl font-bold text-center">Encontre o que você quer comer</h2>
-      <p className="text-center text-gray-600 mt-2">
+    <section id="funcionalidades" className="py-20 px-4 bg-brasa-50">
+      <h2 className="font-titulo text-3xl font-semibold text-center text-carvao-900">O que você quer comer hoje?</h2>
+      <p className="text-center text-carvao-900/70 mt-2">
         Escolha um tipo de comida e veja pratos de verdade vindos da nossa API.
       </p>
 
@@ -82,8 +82,8 @@ export default function Funcionalidades() {
           <button
             key={t.valor}
             onClick={() => setTipo(t.valor)}
-            className={`px-4 py-2 rounded-full transition ${
-              tipo === t.valor ? 'bg-red-600 text-white' : 'bg-gray-200 hover:bg-gray-300'
+            className={`px-4 py-2 rounded-full font-medium transition ${
+              tipo === t.valor ? 'bg-brasa-600 text-white' : 'bg-brasa-100 text-carvao-900 hover:bg-brasa-300'
             }`}
           >
             {t.rotulo}
@@ -91,8 +91,8 @@ export default function Funcionalidades() {
         ))}
       </div>
 
-      {carregando && <p className="text-center">Carregando...</p>}
-      {erro && <p className="text-center text-red-600">{erro}</p>}
+      {carregando && <p className="text-center text-carvao-900/70">Carregando...</p>}
+      {erro && <p className="text-center text-brasa-700">{erro}</p>}
 
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
         {pratos.map((p) => (

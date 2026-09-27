@@ -33,7 +33,7 @@ export default function Rodape() {
   }
 
   return (
-    <footer className="bg-orange-950 text-orange-50 px-6 py-10">
+    <footer className="bg-carvao-900 text-brasa-50 px-6 py-10">
       <div className="mx-auto grid max-w-6xl gap-8 md:grid-cols-3">
 
         {/* Contato */}
@@ -42,7 +42,7 @@ export default function Rodape() {
             GourmetOn
           </h2>
 
-          <div className="space-y-3 text-orange-100">
+          <div className="space-y-3 text-brasa-100">
             <p className="flex items-center gap-2">
               <FaEnvelope />
               contato@gourmeton.com
@@ -72,7 +72,7 @@ export default function Rodape() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={r.nome}
-                  className="text-2xl transition hover:scale-110 hover:text-orange-300"
+                  className="text-2xl transition hover:scale-110 hover:text-brasa-300"
                 >
                   <Icone />
                 </a>
@@ -91,7 +91,7 @@ export default function Rodape() {
             <a
               href="#"
               onClick={emBreve}
-              className="transition hover:text-orange-300"
+              className="transition hover:text-brasa-300"
             >
               Termos de uso
             </a>
@@ -99,7 +99,7 @@ export default function Rodape() {
             <a
               href="#"
               onClick={emBreve}
-              className="transition hover:text-orange-300"
+              className="transition hover:text-brasa-300"
             >
               Política de privacidade
             </a>
@@ -108,7 +108,7 @@ export default function Rodape() {
       </div>
 
       {/* Informações finais */}
-      <div className="mx-auto mt-8 max-w-6xl border-t border-orange-800 pt-6 text-center text-sm text-orange-200">
+      <div className="mx-auto mt-8 max-w-6xl border-t border-brasa-700 pt-6 text-center text-sm text-brasa-100">
 
         <p className="mb-2">
           Criado por Mateus, Enzo, José, Rafael e Donas — projeto de Engenharia de Software.
