@@ -74,7 +74,7 @@ export default function Funcionalidades() {
     <section id="funcionalidades" className="py-20 px-4 bg-brasa-50">
       <h2 className="font-titulo text-3xl font-semibold text-center text-carvao-900">O que você quer comer hoje?</h2>
       <p className="text-center text-carvao-900/70 mt-2">
-        Escolha um tipo de comida e veja pratos de verdade vindos da nossa API.
+        Escolha um tipo de comida e veja pratos de verdade dos restaurantes parceiros.
       </p>
 
       <div className="flex flex-wrap justify-center gap-2 my-8">
